@@ -1,0 +1,16 @@
+{
+    "image": "node:current",
+    "appPort": [
+        8080
+    ],
+    "extensions": [
+        "visualstudioexptteam.vscodeintellicode",
+        "esbenp.prettier-vscode"
+    ],
+    "settings": {
+
+    },
+    "containerEnv": {
+        
+    }
+}
