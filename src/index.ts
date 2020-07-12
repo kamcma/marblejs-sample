@@ -1,6 +1,6 @@
 import { IO } from 'fp-ts/lib/IO';
 import { pipe } from 'fp-ts/lib/pipeable';
-import { from, of, throwError, Observable } from 'rxjs';
+import { of, throwError } from 'rxjs';
 import { map, mergeMap, catchError } from 'rxjs/operators';
 import { r, httpListener, createServer, use, HttpError, HttpStatus, combineRoutes } from '@marblejs/core';
 import { logger$ } from '@marblejs/middleware-logger';
