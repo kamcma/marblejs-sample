@@ -54,8 +54,8 @@ const getUser$ = r.pipe(
 );
 
 const users$ = combineRoutes('/users', [
-    getUser$,
-    getUsers$
+    getUsers$,
+    getUser$
 ]);
 
 const apiV1$ = combineRoutes('/api/v1', [
